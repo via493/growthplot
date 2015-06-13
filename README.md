@@ -2,7 +2,7 @@
 
 Project for App4Kids Hackathon
 
-This project uses Pythons Django web framework. Ensure that you have Python installed on your computer.
+This project uses Python's Django web framework on top of a PostgreSQL database. Ensure that you have Python and Postgres installed on your computer. You should be able to get all OS specific installation instructions for Python and Postgres by visitng the relevant websites.
 
 ##Installation instructions for Django 1.8:
 To install Django you can use Python's package manager `pip`:

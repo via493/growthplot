@@ -14,6 +14,10 @@ To install Django you can use Python's package manager `pip`:
 By default Django uses an SQLite database for backend storage. We've opted to use PostgreSQL since it is more robust and offers a vareity of useful features as the dataset grows. You will need to install the `Psycopg` adapter for Django to hook into a Postgres database.
 * You can use `pip` to install the adapter using the the command `sudo pip install psycopg2` in your terminal.
 * Consult [this page](http://initd.org/psycopg/docs/install.html) for your OS specific installation instructions.
+* Actvate Postgres' interactive prompt by entering `psql` on your terminal as user `postgres`. Enter the following SQL commad: `CREATE DATABASE growthplot;`.
 
-Enter the following commands - TODO:
+##Activate the app
+* Enter the following commands in your terminal to set up the initial tables and initialize the framework:
 `python manage.py migrate`
+* To check that the app will run, activate a python server by entering `python manage.py runserver` in your terminal in the project root directory. Open up your browser and copy and paste the URL address (http://127.0.0.1:8000/
+). You should see a page notifying you that the app works.

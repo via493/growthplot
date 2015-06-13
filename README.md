@@ -14,3 +14,6 @@ To install Django you can use Python's package manager `pip`:
 By default Django uses an SQLite database for backend storage. We've opted to use PostgreSQL since it is more robust and offers a vareity of useful features as the dataset grows. You will need to install the `Psycopg` adapter for Django to hook into a Postgres database.
 * You can use `pip` to install the adapter using the the command `sudo pip install psycopg2` in your terminal.
 * Consult [this page](http://initd.org/psycopg/docs/install.html) for your OS specific installation instructions.
+
+Enter the following commands - TODO:
+`python manage.py migrate`
